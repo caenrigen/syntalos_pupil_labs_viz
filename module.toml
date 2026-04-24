@@ -1,0 +1,18 @@
+[syntalos_module]
+type = "python"
+
+name = "Pupil Labs Visualiser"
+description = "Visualize in realtime the data output by the Pupil Labs Neon module"
+icon = "neon.svg"
+
+main = "mod-main.py"
+# will run the module in a dedicated venv with requirements.txt installed
+use_venv = false
+
+# By default development modules don't show up in Syntalos
+# unless you activate the developer mode.
+devel = false
+
+# This will put it inside the "Device Support" group in the "Add Module" GUI
+categories = ['processing']
+features = []
