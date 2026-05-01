@@ -5,7 +5,7 @@ name = "Pupil Labs Visualiser"
 description = "Visualize in realtime the data output by the Pupil Labs Neon module"
 icon = "neon.svg"
 
-main = "mod-main.py"
+main = "module.py"
 # will run the module in a dedicated venv with requirements.txt installed
 use_venv = false
 
